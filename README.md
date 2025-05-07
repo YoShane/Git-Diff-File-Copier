@@ -31,7 +31,7 @@ This script identifies files that differ between two Git branches using `git dif
 3. When prompted, enter:
    - The branch name you want to compare (your current working branch)
    - The main branch name to compare against (defaults to "master" if left blank)
-   - The destination folder where files should be copied (defaults to a subfolder named "INAD" in the current directory)
+   - The destination folder where files should be copied
 
 ## Example
 
@@ -45,8 +45,8 @@ Please input your destination folder (default: current path): C:\Deployments\Log
 
 The script contains some default values that can be modified directly in the script file if needed:
 
-- `SET "FileListTxt=diffFileTemp.txt"` - Temporary file to store the diff results
-- `SET "SourceFolder=D:\wwwroot\INAD"` - Default source folder (your Git repository)
+- `SET "FileListTxt=diffFileTemp.txt"` - Temporary file to store the diff results (Do not delete this file)
+- `SET "SourceFolder=D:\project\git_source_folder"` - Default source folder (your Git repository)
 
 ## How It Works
 
