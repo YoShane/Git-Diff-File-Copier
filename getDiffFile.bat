@@ -3,7 +3,7 @@ chcp 65001
 SETLOCAL ENABLEDELAYEDEXPANSION
 REM Set variables
 SET "FileListTxt=diffFileTemp.txt"
-SET "SourceFolder=D:\wwwroot\INAD"
+SET "SourceFolder=D:\project\git_source_folder"
 set "locatedFolder=%cd%"
 set /P diffBranchName=Please input your branch name: 
 set /P mainBranchName=Please input your main branch name (default: master): 
